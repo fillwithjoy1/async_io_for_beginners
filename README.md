@@ -23,7 +23,7 @@ Since we concluded it took 30 move-pairs, it'll take 30 minutes to finish each g
 However since we are playing against 24 opponents, it'll take 30 x 24 = 720 minutes or 12 hours! </br>
 Now can we make it quicker? 
 
-####Asynchronous Version
+#### Asynchronous Version
 What happens instead is that what we can do is make the chess champion play against 24 players all at once!
 Doing the math, it'll take 5 seconds to make a move on each board or 5 x 24 = 120 seconds or 2 minutes to make a move on each board.
 Now coming back to the first board, 2 minutes has elapsed and the opponent has more than enough time to make a move, and then we continue from there.
